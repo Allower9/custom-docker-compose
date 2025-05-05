@@ -4,4 +4,4 @@ WORKDIR /server
 
 COPY server.py .
 COPY index.html .
-
+CMD ["python", "./server.py"]
